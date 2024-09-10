@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<head>
+   
+    <title>Simple CSS Practice</title>
+    
+  
+    <link rel="stylesheet" href="style.css">
+    
+   
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    
+   
+    <div class="container">
+        <div class="header">
+            Header Section
+        </div>
+        <div class="content">
+            This is the content inside the first container. You can add text here to demonstrate styling.
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="header">
+            Second Header
+        </div>
+        <div class="content">
+            This is another container with different content. CSS styling will apply the same rules here.
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="header">
+            Third Header
+        </div>
+        <div class="content">
+            A third container to show off padding, margins, and borders.
+        </div>
+    </div>
+
+</body>
+</html>
+
+.container {
+    border: 2px solid black; 
+    margin: 20px;            
+    padding: 15px;           
+    height: 200px;           
+    width: 300px;            
+    display: inline-block;    
+    background-color: lightblue; 
+}
+
+.header {
+    font-size: 24px;        
+    text-align: center;     
+    border-bottom: 3px solid black; 
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.content {
+    font-size: 16px;
+    padding: 10px;
+    position: relative;    
+    border-left: 5px solid red;  
+}
+
